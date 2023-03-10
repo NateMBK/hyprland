@@ -14,5 +14,5 @@ ttf-meslo
 vde2
 anydesk-bin
 zoom
-brave
+firefox
 bottles

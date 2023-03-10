@@ -21,6 +21,13 @@ done
 
 export PATH=$PATH:~/.local/bin
 
+#Theming DE if user chose FULL installation
+#cp -r ~/ArchSetup/configs/.config/* ~/.config/
+#pip install konsave
+#konsave -i ~/ArchSetup/configs/kde.knsv
+#sleep 1
+#konsave -a kde
+
 echo -ne "_____________________________________________
 
 Starting 3-post-setup

@@ -19,6 +19,7 @@ do
     yay -S --noconfirm --needed "${line}"
 done
 
+export PATH=$PATH:~/.local/bin
 
 echo -ne "_____________________________________________
 

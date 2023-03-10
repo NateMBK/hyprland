@@ -1,0 +1,16 @@
+sddm
+dolphin
+bluedevil
+extra-cmake-modules
+filelight
+gwenview
+kcodecs
+kcoreaddons
+partitionmanager
+ksystemlog
+ark
+konsole
+kvantum-qt5
+layer-shell-qt
+okular
+zeroconf-ioslave

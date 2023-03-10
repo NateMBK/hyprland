@@ -15,8 +15,6 @@ set +a
     ( arch-chroot /mnt /usr/bin/runuser -u $USERNAME -- /home/$USERNAME/ArchSetup/scripts/2-user.sh )
     ( arch-chroot /mnt $HOME/ArchSetup/scripts/3-post-setup.sh )
 
-clear
-
 echo -ne "_____________________________________________
 
 Arch Linux Install Complete, Please Restart the system.

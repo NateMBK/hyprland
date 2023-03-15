@@ -1,1 +1,0 @@
-cp -r hyprland/dotconfig/* /home/nate/.config/

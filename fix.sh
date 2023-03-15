@@ -1,1 +1,1 @@
-cp -r hyprland/hyprland/dotconfig/* /home/nate/.config/
+cp -r hyprland/dotconfig/* /home/nate/.config/

@@ -8,18 +8,17 @@
     "height": 0,
     "modules-left": [
         "clock",
-        "custom/weather",
         "wlr/workspaces"
     ],
     "modules-center": ["hyprland/window"],
     "modules-right": [
         "tray",
         "custom/updates",
-        "custom/language",
         "battery",
         "backlight",
         "pulseaudio",
-        "pulseaudio#microphone"
+        "pulseaudio#microphone",
+        "network"
     ],
 
     "hyprland/window": {
@@ -29,7 +28,6 @@
         "disable-scroll": true,
         "all-outputs": true,
         "on-click": "activate",
-        //"format": "{icon}",
         "persistent_workspaces": {
             "1": [],
             "2": [],
@@ -48,19 +46,12 @@
         "interval": 7200,
         "format": " {}"
     },
-   "custom/weather" : {
-        "tooltip" : true,
-        "format" : "{}",
-        "interval" : 30,
-        "exec" : "~/.config/waybar/scripts/waybar-wttr.py",
-        "return-type" : "json"
-    },
     "tray": {
         "icon-size": 13,
         "spacing": 10
     },
     "clock": {
-        "format": "{: %m/%d/%Y %I:%M %p}",
+        "format": "{:%m/%d/%Y %I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
     "backlight": {
@@ -109,5 +100,14 @@
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
         "scroll-step": 5
+    },
+    "network": {
+       "format-wifi": " UP",
+        "format-ethernet": "󰈀 UP",
+        "tooltip-format": "{ifname}: {ipaddr}",
+        "format-linked": "{ifname}: No IP",
+        "format-disconnected": "⚠ Down",
+        "format-alt": "{ifname}: {ipaddr}"
     }
+
 }

@@ -3,7 +3,7 @@
     border-radius: 0;
     font-family: Cartograph CF Nerd Font, monospace;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     min-height: 0;
 }
 
@@ -21,7 +21,7 @@ tooltip {
 }
 
 #workspaces button {
-    padding: 5px;
+    padding: 0px;
     color: #313244;
     margin-right: 5px;
 }
@@ -48,10 +48,7 @@ tooltip {
     border-radius: 10px;
 }
 
-#custom-language,
 #custom-updates,
-#custom-caffeine,
-#custom-weather,
 #window,
 #clock,
 #battery,
@@ -62,39 +59,41 @@ tooltip {
 #backlight {
     background: #1e1e2e;
     padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 10px;
+    margin: 2px 0px;
+    margin-top: 5px;
     border: 1px solid #181825;
 }
 
 #tray {
+    margin-right: 6px;
     border-radius: 10px;
-    margin-right: 10px;
 }
 
 #workspaces {
     background: #1e1e2e;
     border-radius: 10px;
-    margin-left: 10px;
+    margin-left: 6px;
     padding-right: 0px;
-    padding-left: 5px;
+    padding-left: 0px;
 }
 
 #custom-caffeine {
-    color: #89dceb;
+    color: #dadada;
     border-radius: 10px 0px 0px 10px;
     border-right: 0px;
     margin-left: 10px;
 }
 
 #custom-language {
-    color: #f38ba8;
+    color: #dadada;
     border-left: 0px;
     border-right: 0px;
 }
 
 #custom-updates {
-    color: #f5c2e7;
+    color: #dadada;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border-left: 0px;
     border-right: 0px;
 }
@@ -106,39 +105,34 @@ tooltip {
 }
 
 #clock {
-    color: #fab387;
-    border-radius: 10px 0px 0px 10px;
-    margin-left: 0px;
+    color: #dadada;
+    border-radius: 10px;
+    border-left: 0px;
     border-right: 0px;
 }
 
 #network {
-    color: #f9e2af;
+    color: #dadada;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     border-left: 0px;
     border-right: 0px;
 }
 
 #pulseaudio {
-    color: #89b4fa;
+    color: #dadada;
     border-left: 0px;
     border-right: 0px;
 }
 
 #pulseaudio.microphone {
-    color: #cba6f7;
+    color: #dadada;
     border-left: 0px;
     border-right: 0px;
 }
 
 #battery {
-    color: #a6e3a1;
-    border-radius: 0 10px 10px 0;
+    color: #dadada;
     margin-right: 10px;
     border-left: 0px;
-}
-
-#custom-weather {
-    border-radius: 0px 10px 10px 0px;
-    border-right: 0px;
-    margin-left: 0px;
 }

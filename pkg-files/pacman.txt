@@ -44,6 +44,8 @@ okular
 ark
 partitionmanager
 git
+libsecret
+gnome-keyring
 code
 cronie
 cups

@@ -62,7 +62,6 @@ libvirt
 edk2-ovmf
 iptables-nft
 swtpm
-discord
 filezilla
 libreoffice-fresh
 wine

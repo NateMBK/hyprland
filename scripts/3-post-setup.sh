@@ -46,7 +46,8 @@ rm -rf /etc/locale.conf
 touch /etc/locale.conf
 echo "# This is the fallback locale configuration provided by systemd.
 
-LANG="en_US.UTF-8"
+LANG="en_US.UTF-8" 
+LC_TIME="en_US.UTF-8"
 ">> /etc/locale.conf
 systemctl enable sddm
 systemctl enable libvirtd.service

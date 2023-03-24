@@ -5,6 +5,7 @@ efibootmgr
 grub
 linux
 linux-firmware
+cifs-utils
 networkmanager
 zram-generator
 pipewire
@@ -51,7 +52,6 @@ cronie
 cups
 transmission-qt
 gamemode
-gparted
 gptfdisk
 ntfs-3g
 ntp
@@ -66,6 +66,8 @@ iptables-nft
 swtpm
 filezilla
 libreoffice-fresh
+steam
+vkd3d
 wine
 wine-mono
 wine_gecko

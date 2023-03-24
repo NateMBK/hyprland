@@ -1,15 +1,15 @@
 * {
     font:   "Source Code Pro 12";
 
-    bg0:    #242424E6;
+    bg0:    #1e1e1e;
     bg1:    #7E7E7E80;
-    bg2:    #0860f2E6;
+    bg2:    #344197;
 
     fg0:    #DEDEDE;
     fg1:    #FFFFFF;
     fg2:    #DEDEDE80;
 
-    background-color:   transparent;
+    background-color:   #232323;
     text-color:         @fg0;
 
     margin:     0;

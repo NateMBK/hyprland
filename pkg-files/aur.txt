@@ -1,4 +1,5 @@
 hyprland-bin
+xdg-desktop-portal-wlr
 rofi
 wlogout
 grimblast-git
@@ -7,9 +8,9 @@ swaylock-effects
 sddm-git
 nwg-look-bin
 plymouth-git
-sddm-slice-git
 autojump
 dxvk-bin
+ttf-ms-fonts
 github-desktop-bin
 mangohud
 mangohud-common
@@ -17,4 +18,5 @@ ocs-url
 vde2
 anydesk-bin
 zoom
+discord
 bottles

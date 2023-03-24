@@ -94,7 +94,7 @@ Rectangle {
             
 	Label {
         	id: datelb
-       		 anchors.top: timelb.bottom
+       		anchors.top: timelb.bottom
         	anchors.horizontalCenter: parent.horizontalCenter
         	text: Qt.formatDateTime(new Date(), "dd/MM/yyyy")
         	color: "white"

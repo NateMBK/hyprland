@@ -28,20 +28,10 @@ rm -rf /usr/share/icons/default/index.theme
 touch /usr/share/icons/default/index.theme
 echo [Icon Theme] >> /usr/share/icons/default/index.theme
 echo Inherits=Oxygen_White >> /usr/share/icons/default/index.theme
+cp -rf $HOME/ArchSetup/hyprland/simplicity /usr/share/sddm/themes/
 echo [Theme] >> /etc/sddm.conf
-echo Current=slice >> /etc/sddm.conf
-cp -rf $HOME/ArchSetup/wallpaper.jpg /usr/share/sddm/themes/slice/
-touch /usr/share/sddm/themes/slice/theme.conf.user
-echo "[General]
-font=Roboto
-background=wallpaper.jpg
-bg_mode=aspect
-parallax_bg_shift=20
-color_bg=#222222
-color_main=#dddddd
-color_dimmed=#888888
-color_contrast=#1f1f1f
-manual=false">> /usr/share/sddm/themes/slice/theme.conf.user
+echo Current=simplicity >> /etc/sddm.conf
+cp -rf $HOME/ArchSetup/wallpaper.jpg /usr/share/sddm/themes/simplicity/
 rm -rf /etc/locale.conf
 touch /etc/locale.conf
 echo "# This is the fallback locale configuration provided by systemd.

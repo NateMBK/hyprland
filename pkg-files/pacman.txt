@@ -47,6 +47,7 @@ partitionmanager
 git
 libsecret
 gnome-keyring
+seahorse
 code
 cronie
 cups

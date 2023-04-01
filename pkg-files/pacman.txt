@@ -60,6 +60,7 @@ traceroute
 ufw
 cifs-utils
 virt-manager
+dmidecode
 qemu-desktop
 libvirt
 edk2-ovmf
